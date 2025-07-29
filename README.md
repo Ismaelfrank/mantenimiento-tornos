@@ -1,41 +1,37 @@
-# 🛠️ Proyecto: Sistema de Mantenimiento de Tornos
+# 🛠️ Sistema de Mantenimiento de Tornos
 
-Este proyecto permite registrar y controlar los mantenimientos realizados a tornos dentro de la Escuela Politécnica Nacional del Ecuador. Además, genera alertas automáticas cuando se aproxima un mantenimiento, ayudando a prevenir fallos.
+Aplicación de escritorio desarrollada en Python (Tkinter) para el registro, gestión y control de mantenimientos de tornos.
+
+## 📦 Ejecutable disponible
+
+Puedes descargar la última versión estable del ejecutable (`.exe`) sin necesidad de tener Python instalado:
+
+[![Descargar mantenimiento_tornos.exe](https://img.shields.io/badge/Descargar%20EXE-v1.1.0-blue?logo=github)](https://github.com/Ismaelfrank/mantenimiento-tornos/releases/latest/download/mantenimiento_tornos.exe)
+
+## ✅ Requisitos del ejecutable
+
+- Windows 10 u 11 (64 bits)
+- No se requiere instalar Python
+- El archivo se ha empaquetado con **PyInstaller**
+
+## 📂 Contenido del ejecutable
+
+- `mantenimiento_tornos.exe` — versión compilada del archivo `mantenimiento_tornos.py`
+
+## ⚙️ Características de la aplicación
+
+- Registro de mantenimientos con fecha, observaciones y alertas.
+- Gestión mediante interfaz gráfica (Tkinter)
+- Almacenamiento en base de datos SQLite y respaldo en Excel
+- Alerta por correo electrónico configurable
+- Generación de copias de seguridad
+
+## 🔧 Desarrollo
+
+- Lenguaje: Python 3.11
+- Librerías: `tkinter`, `sqlite3`, `pandas`, `openpyxl`, `smtplib`, `email`
 
 ---
 
-## ✨ Versión ejecutable disponible
+Si deseas colaborar, informar un error o sugerir mejoras, ¡serás bienvenido/a!
 
-✅ Ya no es necesario tener Python instalado ni clonar el repositorio.  
-✅ Puedes descargar el ejecutable directamente desde GitHub:
-
-🔗 [Descargar torno1.exe](https://github.com/Ismaelfrank/mantenimiento-tornos/releases/download/v1.0/torno1.exe)
-
----
-
-## 📌 Requisitos para usar el ejecutable
-
-- Sistema operativo: **Windows**
-- No requiere instalación de Python
-
----
-
-## 💡 Características principales
-
-- Registro detallado de mantenimientos.
-- Alertas automáticas.
-- Interfaz gráfica intuitiva con `tkinter`.
-
----
-
-## 👤 Público objetivo
-
-Técnicos de mantenimiento que trabajan en los talleres de la Escuela Politécnica Nacional.
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-- Python
-- Tkinter
-- SQLite
