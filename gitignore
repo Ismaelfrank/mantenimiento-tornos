@@ -1,0 +1,7 @@
+
+# Archivos que no queremos subir al repositorio
+mantenimientos.xlsx
+mantenimiento_torno.db
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,5 @@
+ALERTA: preventivo para torno 3333 el 2025-07-01 (en 0 días)
+ALERTA: preventivo para torno 2222 el 2025-07-10 (en 9 días)
+ALERTA: preventivo para torno 1234 el 2025-07-01 (en 0 días)
+ALERTA: preventivo para torno 1235 el 2025-07-03 (en 2 días)
+ALERTA: preventivo para torno 1236 el 2025-07-20 (en 19 días)
