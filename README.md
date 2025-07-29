@@ -1,27 +1,41 @@
 # 🛠️ Proyecto: Sistema de Mantenimiento de Tornos
 
-Este proyecto tiene como objetivo facilitar el **registro y control de mantenimientos realizados a tornos** dentro del entorno académico de la **Escuela Politécnica Nacional del Ecuador**. Además, el sistema permite **generar alertas automáticas** cuando se aproxima la fecha de un nuevo mantenimiento, lo cual ayuda a prevenir fallos y extender la vida útil del equipo.
+Este proyecto permite registrar y controlar los mantenimientos realizados a tornos dentro de la Escuela Politécnica Nacional del Ecuador. Además, genera alertas automáticas cuando se aproxima un mantenimiento, ayudando a prevenir fallos.
 
-## 📌 Características principales
+---
 
-- Registro detallado de mantenimientos realizados.
-- Alertas de mantenimientos próximos.
-- Interfaz gráfica sencilla e intuitiva.
-- Soporte para archivos de datos relacionados.
+## ✨ Versión ejecutable disponible
 
-## 🧑‍🔧 Público objetivo
+✅ Ya no es necesario tener Python instalado ni clonar el repositorio.  
+✅ Puedes descargar el ejecutable directamente desde GitHub:
 
-El sistema está diseñado para ser utilizado por **técnicos de mantenimiento** que laboran en los talleres de la Escuela Politécnica Nacional.
+🔗 [Descargar torno1.exe](https://github.com/Ismaelfrank/mantenimiento-tornos/releases/download/v1.0/torno1.exe)
 
-## 💻 Tecnologías utilizadas
+---
 
-- **Python**
-- **Tkinter** para la interfaz gráfica.
-- Librerías estándar para manejo de archivos y fechas.
+## 📌 Requisitos para usar el ejecutable
 
-## 🚀 Cómo ejecutar el proyecto
+- Sistema operativo: **Windows**
+- No requiere instalación de Python
 
-1. Clona este repositorio:
+---
 
-   ```bash
-   git clone https://github.com/Ismaelfrank/mantenimiento-tornos
+## 💡 Características principales
+
+- Registro detallado de mantenimientos.
+- Alertas automáticas.
+- Interfaz gráfica intuitiva con `tkinter`.
+
+---
+
+## 👤 Público objetivo
+
+Técnicos de mantenimiento que trabajan en los talleres de la Escuela Politécnica Nacional.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Python
+- Tkinter
+- SQLite
